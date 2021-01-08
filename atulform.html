@@ -1,0 +1,118 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+body{
+background-color:#6698FF;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+display:grid;
+margin-left:18em;
+}
+div.atul {
+  
+    margin:50px 0px;
+    padding:0px;
+    margin-left:20em;
+}
+form {
+    margin-left: 5%;
+margin-right:0%;
+    width: 120em;
+}
+
+</style>
+</head>
+<body>
+ <h2 align="center">Tell us something positive that happened to you today.</h2> 
+<div class="atul">
+<form>
+  <div class="form-group row">
+    <label for="Name" class="col-sm-2 col-form-label">Name</label>
+    <div class="col-sm-10">
+      <input type="name"  class="form-control" id="staticEmail" value="Enter your name" style=" width:25em;">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="email" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="Email" class="form-control" id="inputPassword" placeholder="Enter your email address" style=" width:25em;">
+    </div></div>
+<div class="form-group row" >
+    <label for="inputdigits" class="col-sm-2 col-form-label" >On a scale of 1-10,how good was it?</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword" placeholder="Enter a number between 1 and 10" style=" width:25em;">
+    </div>
+  </div>
+<div class="form-group row">
+             <label for="choices" class="col-sm-2 col-form-label"> Where did it happen </label>
+             <div class="col-sm-10"> <select name="places">    
+              <option value="Park">At Park</option>    
+              <option value="office">At office</option>    
+              <option value="home" selected="selected">At home</option>    
+              </select> 
+            </div> </div>
+
+                
+              <div class="form-group row">             
+              <label class="col-sm-2 col-form-label">At what time of day did it happen?</label>  
+              <div class="col-sm-10">
+              
+
+              <input type="radio" id="morning"  name="day" value="morning" required>
+              <label for="morning">Morning</label><br>
+ 
+              <input type="radio" id="afternoon"  name="day" value="afternoon">
+              <label for="afternoon">Afternoon</label><br>
+             
+              <input type="radio" id="Evening"  name="day" value="Evening">
+              <label for="Evening">Evening</label><br>
+              </div></div>
+            
+       
+             <div class="form-group row">
+     	      <label  class="col-sm-2 col-form-label" >What emotions did you experience?
+     	      </label> 
+              <div class="col-sm-10">
+              
+              <input type="checkbox" id="excited" name="feel" value="excited">
+              <label for="excited">Excited</label><br>
+              
+              <input type="checkbox" id="humbled" name="feel" value="humbled">
+              <label for="humbled">Humbled</label><br>
+              
+              <input type="checkbox" id="elated" name="feel" value="elated">
+              <label for="elated">Elated</label><br>
+             
+              <input type="checkbox" id="loved" name="feel" value="loved">
+              <label for="loved">loved</label><br>
+              
+              <input type="checkbox" id="Enth" name="feel" value="Enth">
+              <label for="Enth">Enthusiatic</label><br>
+              
+              </div></div>
+        
+           <div class="form-group row">
+    <label for="Name" class="col-sm-2 col-form-label">Please describe your positive experience.</label>
+    <div class="col-sm-10">
+      <textarea rows="4" cols="50" name="tex" placeholder="Enter your experience here."></textarea>
+    </div> 
+<br><br><br><br><br><br>
+<div class="form-group row">
+       <div class="col-sm-10">
+      <input type="submit" value="Submit" >
+    </div>
+</div>
+</div>
+<br>
+<br>
+    
+</form>
+</body>
+</html>
